@@ -1,0 +1,16 @@
+diff --git a/include/SFML/Config.hpp b/include/SFML/Config.hpp
+index 36a8b1a3725403b9b47f5716202a7ae00d780759..f05662c0355221602ad7d0f0fe31089b4fe65deb 100644
+--- a/include/SFML/Config.hpp
++++ b/include/SFML/Config.hpp
+@@ -68,6 +68,11 @@
+ 
+ #endif
+ 
++#elif defined(__SWITCH__)
++
++// Only System/Network are built for Horizon, using the Unix socket implementation.
++#define SFML_SYSTEM_HORIZON
++
+ #elif defined(__unix__)
+ 
+ // UNIX system, see which one it is

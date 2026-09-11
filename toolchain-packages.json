@@ -1,0 +1,612 @@
+{
+  "catnip-0.2.0-1": {
+    "%NAME%": "catnip",
+    "%VERSION%": "0.2.0-1",
+    "%URL%": "http://github.com/devkitPro/catnip",
+    "%ARCH%": "any"
+  },
+  "deko3d-0.5.0-1": {
+    "%NAME%": "deko3d",
+    "%VERSION%": "0.5.0-1",
+    "%URL%": "http://github.com/devkitPro/deko3d",
+    "%ARCH%": "any"
+  },
+  "devkit-env-1.0.1-2": {
+    "%NAME%": "devkit-env",
+    "%VERSION%": "1.0.1-2",
+    "%URL%": "https://devkitpro.org",
+    "%ARCH%": "any"
+  },
+  "devkita64-binutils-2.45.1-2": {
+    "%NAME%": "devkita64-binutils",
+    "%VERSION%": "2.45.1-2",
+    "%URL%": "https://www.gnu.org/software/binutils/binutils.html",
+    "%ARCH%": "x86_64"
+  },
+  "devkita64-cmake-1.1.3-1": {
+    "%NAME%": "devkita64-cmake",
+    "%VERSION%": "1.1.3-1",
+    "%URL%": "http://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "devkita64-gcc-15.2.0-7": {
+    "%NAME%": "devkita64-gcc",
+    "%VERSION%": "15.2.0-7",
+    "%URL%": "https://www.gnu.org/software/gcc/gcc.html",
+    "%ARCH%": "x86_64"
+  },
+  "devkitA64-gdb-14.1-1": {
+    "%NAME%": "devkitA64-gdb",
+    "%VERSION%": "14.1-1",
+    "%URL%": "https://www.gnu.org/software/gdb",
+    "%ARCH%": "x86_64"
+  },
+  "devkita64-newlib-4.6.0.20260123-4": {
+    "%NAME%": "devkita64-newlib",
+    "%VERSION%": "4.6.0.20260123-4",
+    "%URL%": ""
+  },
+  "devkitA64-r29.2-1": {
+    "%NAME%": "devkitA64",
+    "%VERSION%": "r29.2-1",
+    "%URL%": "https://devkitpro.org",
+    "%ARCH%": "any"
+  },
+  "devkita64-rules-1.1.1-1": {
+    "%NAME%": "devkita64-rules",
+    "%VERSION%": "1.1.1-1",
+    "%URL%": "http://github.com/devkitpro/devkita64-rules",
+    "%ARCH%": "any"
+  },
+  "devkitarm-binutils-2.45.1-2": {
+    "%NAME%": "devkitarm-binutils",
+    "%VERSION%": "2.45.1-2",
+    "%URL%": "https://www.gnu.org/software/binutils/binutils.html",
+    "%ARCH%": "x86_64"
+  },
+  "devkitarm-crtls-1.2.6-1": {
+    "%NAME%": "devkitarm-crtls",
+    "%VERSION%": "1.2.6-1",
+    "%URL%": "http://github.com/devkitpro/devkitarm-crtls",
+    "%ARCH%": "any"
+  },
+  "devkitarm-gcc-15.2.0-7": {
+    "%NAME%": "devkitarm-gcc",
+    "%VERSION%": "15.2.0-7",
+    "%URL%": "https://www.gnu.org/software/gcc/gcc.html",
+    "%ARCH%": "x86_64"
+  },
+  "devkitarm-newlib-4.6.0.20260123-4": {
+    "%NAME%": "devkitarm-newlib",
+    "%VERSION%": "4.6.0.20260123-4",
+    "%URL%": ""
+  },
+  "devkitARM-r67.1-1": {
+    "%NAME%": "devkitARM",
+    "%VERSION%": "r67.1-1",
+    "%URL%": "https://devkitpro.org",
+    "%ARCH%": "any"
+  },
+  "devkitarm-rules-1.6.0-4": {
+    "%NAME%": "devkitarm-rules",
+    "%VERSION%": "1.6.0-4",
+    "%URL%": "http://github.com/devkitpro/devkitarm-rules",
+    "%ARCH%": "any"
+  },
+  "devkitpro-keyring-20241017-2": {
+    "%NAME%": "devkitpro-keyring",
+    "%VERSION%": "20241017-2",
+    "%URL%": "https://github.com/devkitpro/devkitpro-keyring",
+    "%ARCH%": "any"
+  },
+  "dkp-cmake-common-utils-1.5.3-1": {
+    "%NAME%": "dkp-cmake-common-utils",
+    "%VERSION%": "1.5.3-1",
+    "%URL%": "http://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "dkp-meson-scripts-1.1.0-1": {
+    "%NAME%": "dkp-meson-scripts",
+    "%VERSION%": "1.1.0-1",
+    "%URL%": "http://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "dkp-toolchain-vars-1.0.5-1": {
+    "%NAME%": "dkp-toolchain-vars",
+    "%VERSION%": "1.0.5-1",
+    "%URL%": "http://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "general-tools-1.4.4-1": {
+    "%NAME%": "general-tools",
+    "%VERSION%": "1.4.4-1",
+    "%URL%": "https://github.com/devkitpro/general-tools",
+    "%ARCH%": "x86_64"
+  },
+  "hactool-1.4.0-3": {
+    "%NAME%": "hactool",
+    "%VERSION%": "1.4.0-3",
+    "%URL%": "https://github.com/SciresM/hactool",
+    "%ARCH%": "x86_64"
+  },
+  "libnx-4.12.0-1": {
+    "%NAME%": "libnx",
+    "%VERSION%": "4.12.0-1",
+    "%URL%": "http://github.com/switchbrew",
+    "%ARCH%": "any"
+  },
+  "pacman-6.0.2-6": {
+    "%NAME%": "pacman",
+    "%VERSION%": "6.0.2-6",
+    "%URL%": "https://www.archlinux.org/pacman/",
+    "%ARCH%": "x86_64"
+  },
+  "switch-box2d-2.4.1-1": {
+    "%NAME%": "switch-box2d",
+    "%VERSION%": "2.4.1-1",
+    "%URL%": "https://github.com/erincatto/box2d",
+    "%ARCH%": "any"
+  },
+  "switch-bulletphysics-2.88-3": {
+    "%NAME%": "switch-bulletphysics",
+    "%VERSION%": "2.88-3",
+    "%URL%": "http://bulletphysics.org/",
+    "%ARCH%": "any"
+  },
+  "switch-bzip2-1.0.8-1": {
+    "%NAME%": "switch-bzip2",
+    "%VERSION%": "1.0.8-1",
+    "%URL%": "https://sourceware.org/bzip2/",
+    "%ARCH%": "any"
+  },
+  "switch-cmake-1.5.2-1": {
+    "%NAME%": "switch-cmake",
+    "%VERSION%": "1.5.2-1",
+    "%URL%": "https://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "switch-curl-7.69.1-5": {
+    "%NAME%": "switch-curl",
+    "%VERSION%": "7.69.1-5",
+    "%URL%": "http://www.zlib.net/",
+    "%ARCH%": "any"
+  },
+  "switch-dav1d-1.5.0-1": {
+    "%NAME%": "switch-dav1d",
+    "%VERSION%": "1.5.0-1",
+    "%URL%": "https://code.videolan.org/videolan/dav1d",
+    "%ARCH%": "any"
+  },
+  "switch-enet-1.3.17-1": {
+    "%NAME%": "switch-enet",
+    "%VERSION%": "1.3.17-1",
+    "%URL%": "https://github.com/lsalzman/enet",
+    "%ARCH%": "any"
+  },
+  "switch-examples-20260201-1": {
+    "%NAME%": "switch-examples",
+    "%VERSION%": "20260201-1",
+    "%URL%": "http://github.com/switchbrew/switch-examples",
+    "%ARCH%": "any"
+  },
+  "switch-ffmpeg-7.1-5": {
+    "%NAME%": "switch-ffmpeg",
+    "%VERSION%": "7.1-5",
+    "%URL%": "https://ffmpeg.org/",
+    "%ARCH%": "any"
+  },
+  "switch-flac-1.3.2-4": {
+    "%NAME%": "switch-flac",
+    "%VERSION%": "1.3.2-4",
+    "%URL%": "https://xiph.org/flac/",
+    "%ARCH%": "any"
+  },
+  "switch-freetype-2.13.3-1": {
+    "%NAME%": "switch-freetype",
+    "%VERSION%": "2.13.3-1",
+    "%URL%": "https://www.freetype.org/",
+    "%ARCH%": "any"
+  },
+  "switch-giflib-5.1.4-2": {
+    "%NAME%": "switch-giflib",
+    "%VERSION%": "5.1.4-2",
+    "%URL%": "http://sourceforge.net/projects/giflib",
+    "%ARCH%": "any"
+  },
+  "switch-glad-0.1.27-1": {
+    "%NAME%": "switch-glad",
+    "%VERSION%": "0.1.27-1",
+    "%URL%": "http://github.com/devkitPro",
+    "%ARCH%": "any"
+  },
+  "switch-glfw-3.3.4-2": {
+    "%NAME%": "switch-glfw",
+    "%VERSION%": "3.3.4-2",
+    "%URL%": "https://github.com/glfw/glfw",
+    "%ARCH%": "any"
+  },
+  "switch-glm-0.9.9.7-2": {
+    "%NAME%": "switch-glm",
+    "%VERSION%": "0.9.9.7-2",
+    "%URL%": "https://github.com/g-truc/glm",
+    "%ARCH%": "any"
+  },
+  "switch-harfbuzz-10.0.1-1": {
+    "%NAME%": "switch-harfbuzz",
+    "%VERSION%": "10.0.1-1",
+    "%URL%": "https://harfbuzz.github.io/",
+    "%ARCH%": "any"
+  },
+  "switch-jansson-2.11-3": {
+    "%NAME%": "switch-jansson",
+    "%VERSION%": "2.11-3",
+    "%URL%": "http://www.digip.org/jansson/",
+    "%ARCH%": "any"
+  },
+  "switch-libarchive-3.7.2-7": {
+    "%NAME%": "switch-libarchive",
+    "%VERSION%": "3.7.2-7",
+    "%URL%": "https://www.libarchive.org",
+    "%ARCH%": "any"
+  },
+  "switch-libass-0.17.3-1": {
+    "%NAME%": "switch-libass",
+    "%VERSION%": "0.17.3-1",
+    "%URL%": "https://github.com/libass/libass",
+    "%ARCH%": "any"
+  },
+  "switch-libavif-1.0.1-2": {
+    "%NAME%": "switch-libavif",
+    "%VERSION%": "1.0.1-2",
+    "%URL%": "https://github.com/AOMediaCodec/libavif",
+    "%ARCH%": "any"
+  },
+  "switch-libconfig-1.7.2-3": {
+    "%NAME%": "switch-libconfig",
+    "%VERSION%": "1.7.2-3",
+    "%URL%": "https://www.hyperrealm.com/libconfig/libconfig.html",
+    "%ARCH%": "any"
+  },
+  "switch-libdrm_nouveau-1.0.1-2": {
+    "%NAME%": "switch-libdrm_nouveau",
+    "%VERSION%": "1.0.1-2",
+    "%URL%": "http://github.com/devkitPro",
+    "%ARCH%": "any"
+  },
+  "switch-libexpat-2.2.5-3": {
+    "%NAME%": "switch-libexpat",
+    "%VERSION%": "2.2.5-3",
+    "%URL%": "https://libexpat.github.io/",
+    "%ARCH%": "any"
+  },
+  "switch-libfribidi-1.0.12-1": {
+    "%NAME%": "switch-libfribidi",
+    "%VERSION%": "1.0.12-1",
+    "%URL%": "https://github.com/fribidi/fribidi",
+    "%ARCH%": "any"
+  },
+  "switch-libgd-2.2.5-2": {
+    "%NAME%": "switch-libgd",
+    "%VERSION%": "2.2.5-2",
+    "%URL%": "https://libgd.github.io",
+    "%ARCH%": "any"
+  },
+  "switch-libjpeg-turbo-2.1.2-2": {
+    "%NAME%": "switch-libjpeg-turbo",
+    "%VERSION%": "2.1.2-2",
+    "%URL%": "https://github.com/libjpeg-turbo/libjpeg-turbo",
+    "%ARCH%": "any"
+  },
+  "switch-libjson-c-0.16-2": {
+    "%NAME%": "switch-libjson-c",
+    "%VERSION%": "0.16-2",
+    "%URL%": "https://github.com/json-c/json-c/",
+    "%ARCH%": "any"
+  },
+  "switch-liblua51-5.1.5-1": {
+    "%NAME%": "switch-liblua51",
+    "%VERSION%": "5.1.5-1",
+    "%URL%": "https://www.lua.org/",
+    "%ARCH%": "any"
+  },
+  "switch-liblzma-5.8.2-1": {
+    "%NAME%": "switch-liblzma",
+    "%VERSION%": "5.8.2-1",
+    "%URL%": "https://tukaani.org/xz/",
+    "%ARCH%": "any"
+  },
+  "switch-liblzo2-2.10-2": {
+    "%NAME%": "switch-liblzo2",
+    "%VERSION%": "2.10-2",
+    "%URL%": "https://www.oberhumer.com/opensource/lzo/",
+    "%ARCH%": "any"
+  },
+  "switch-libmad-0.15.1b-3": {
+    "%NAME%": "switch-libmad",
+    "%VERSION%": "0.15.1b-3",
+    "%URL%": "https://www.underbit.com",
+    "%ARCH%": "any"
+  },
+  "switch-libmikmod-3.3.11.1-2": {
+    "%NAME%": "switch-libmikmod",
+    "%VERSION%": "3.3.11.1-2",
+    "%URL%": "http://mikmod.sourceforge.net/",
+    "%ARCH%": "any"
+  },
+  "switch-libmodplug-0.8.9.0-2": {
+    "%NAME%": "switch-libmodplug",
+    "%VERSION%": "0.8.9.0-2",
+    "%URL%": "http://modplug-xmms.sourceforge.net/",
+    "%ARCH%": "any"
+  },
+  "switch-libmpv-0.39.0-4": {
+    "%NAME%": "switch-libmpv",
+    "%VERSION%": "0.39.0-4",
+    "%URL%": "https://mpv.io/",
+    "%ARCH%": "any"
+  },
+  "switch-libogg-1.3.4-2": {
+    "%NAME%": "switch-libogg",
+    "%VERSION%": "1.3.4-2",
+    "%URL%": "https://wiki.xiph.org/Ogg",
+    "%ARCH%": "any"
+  },
+  "switch-libopus-1.3-2": {
+    "%NAME%": "switch-libopus",
+    "%VERSION%": "1.3-2",
+    "%URL%": "https://opus-codec.org/",
+    "%ARCH%": "any"
+  },
+  "switch-libpcre2-10.33-1": {
+    "%NAME%": "switch-libpcre2",
+    "%VERSION%": "10.33-1",
+    "%URL%": "https://www.pcre.org/",
+    "%ARCH%": "any"
+  },
+  "switch-libplacebo-6.338.2-1": {
+    "%NAME%": "switch-libplacebo",
+    "%VERSION%": "6.338.2-1",
+    "%URL%": "https://code.videolan.org/videolan/libplacebo",
+    "%ARCH%": "any"
+  },
+  "switch-libpng-1.6.48-1": {
+    "%NAME%": "switch-libpng",
+    "%VERSION%": "1.6.48-1",
+    "%URL%": "http://www.libpng.org",
+    "%ARCH%": "any"
+  },
+  "switch-libsamplerate-0.1.9-2": {
+    "%NAME%": "switch-libsamplerate",
+    "%VERSION%": "0.1.9-2",
+    "%URL%": "http://www.mega-nerd.com/libsamplerate",
+    "%ARCH%": "any"
+  },
+  "switch-libsodium-1.0.20-1": {
+    "%NAME%": "switch-libsodium",
+    "%VERSION%": "1.0.20-1",
+    "%URL%": "http://libsodium.org",
+    "%ARCH%": "any"
+  },
+  "switch-libssh2-1.10.0-2": {
+    "%NAME%": "switch-libssh2",
+    "%VERSION%": "1.10.0-2",
+    "%URL%": "https://github.com/libssh2/libssh2",
+    "%ARCH%": "any"
+  },
+  "switch-libtheora-1.2.0alpha1-1": {
+    "%NAME%": "switch-libtheora",
+    "%VERSION%": "1.2.0alpha1-1",
+    "%URL%": "https://www.theora.org/",
+    "%ARCH%": "any"
+  },
+  "switch-libtimidity-0.2.6-2": {
+    "%NAME%": "switch-libtimidity",
+    "%VERSION%": "0.2.6-2",
+    "%URL%": "https://sf.net/p/libtimidity/",
+    "%ARCH%": "any"
+  },
+  "switch-libvorbis-1.3.7-1": {
+    "%NAME%": "switch-libvorbis",
+    "%VERSION%": "1.3.7-1",
+    "%URL%": "https://wiki.xiph.org/Vorbis",
+    "%ARCH%": "any"
+  },
+  "switch-libvorbisidec-1.2.1-2": {
+    "%NAME%": "switch-libvorbisidec",
+    "%VERSION%": "1.2.1-2",
+    "%URL%": "http://xiph.org",
+    "%ARCH%": "any"
+  },
+  "switch-libvpx-1.8.0-2": {
+    "%NAME%": "switch-libvpx",
+    "%VERSION%": "1.8.0-2",
+    "%URL%": "https://chromium.googlesource.com/webm/libvpx",
+    "%ARCH%": "any"
+  },
+  "switch-libwebp-1.0.2-2": {
+    "%NAME%": "switch-libwebp",
+    "%VERSION%": "1.0.2-2",
+    "%URL%": "https://developers.google.com/speed/webp/",
+    "%ARCH%": "any"
+  },
+  "switch-libxml2-2.9.8-4": {
+    "%NAME%": "switch-libxml2",
+    "%VERSION%": "2.9.8-4",
+    "%URL%": "http://www.xmlsoft.org/",
+    "%ARCH%": "any"
+  },
+  "switch-libzstd-1.5.7-1": {
+    "%NAME%": "switch-libzstd",
+    "%VERSION%": "1.5.7-1",
+    "%URL%": "https://zstd.net",
+    "%ARCH%": "any"
+  },
+  "switch-lwext4-1.0.0-1": {
+    "%NAME%": "switch-lwext4",
+    "%VERSION%": "1.0.0-1",
+    "%URL%": "https://github.com/gkostka/lwext4",
+    "%ARCH%": "any"
+  },
+  "switch-lz4-1.9.3-1": {
+    "%NAME%": "switch-lz4",
+    "%VERSION%": "1.9.3-1",
+    "%URL%": "https://lz4.github.io/lz4/",
+    "%ARCH%": "any"
+  },
+  "switch-mbedtls-2.28.10-1": {
+    "%NAME%": "switch-mbedtls",
+    "%VERSION%": "2.28.10-1",
+    "%URL%": "https://tls.mbed.org",
+    "%ARCH%": "any"
+  },
+  "switch-mesa-20.1.0-5": {
+    "%NAME%": "switch-mesa",
+    "%VERSION%": "20.1.0-5",
+    "%URL%": "https://mesa.freedesktop.org/archive",
+    "%ARCH%": "any"
+  },
+  "switch-miniupnpc-2.1.20190824-1": {
+    "%NAME%": "switch-miniupnpc",
+    "%VERSION%": "2.1.20190824-1",
+    "%URL%": "http://miniupnp.free.fr/",
+    "%ARCH%": "any"
+  },
+  "switch-mpg123-1.31.3-3": {
+    "%NAME%": "switch-mpg123",
+    "%VERSION%": "1.31.3-3",
+    "%URL%": "http://sourceforge.net/projects/mpg123",
+    "%ARCH%": "any"
+  },
+  "switch-mupdf-1.17.0-1": {
+    "%NAME%": "switch-mupdf",
+    "%VERSION%": "1.17.0-1",
+    "%URL%": "https://www.mupdf.com/",
+    "%ARCH%": "any"
+  },
+  "switch-ntfs-3g-2022.10.3-4": {
+    "%NAME%": "switch-ntfs-3g",
+    "%VERSION%": "2022.10.3-4",
+    "%URL%": "https://www.tuxera.com/community/open-source-ntfs-3g/",
+    "%ARCH%": "any"
+  },
+  "switch-ode-0.16.4-1": {
+    "%NAME%": "switch-ode",
+    "%VERSION%": "0.16.4-1",
+    "%URL%": "http://ode.org/",
+    "%ARCH%": "any"
+  },
+  "switch-oniguruma-6.9.2-2": {
+    "%NAME%": "switch-oniguruma",
+    "%VERSION%": "6.9.2-2",
+    "%URL%": "https://github.com/kkos/oniguruma/",
+    "%ARCH%": "any"
+  },
+  "switch-openal-soft-1.21.1-5": {
+    "%NAME%": "switch-openal-soft",
+    "%VERSION%": "1.21.1-5",
+    "%URL%": "https://openal-soft.org/",
+    "%ARCH%": "any"
+  },
+  "switch-opusfile-0.10-3": {
+    "%NAME%": "switch-opusfile",
+    "%VERSION%": "0.10-3",
+    "%URL%": "https://opus-codec.org/",
+    "%ARCH%": "any"
+  },
+  "switch-physfs-3.2.0-3": {
+    "%NAME%": "switch-physfs",
+    "%VERSION%": "3.2.0-3",
+    "%URL%": "https://icculus.org/physfs/",
+    "%ARCH%": "any"
+  },
+  "switch-pkg-config-0.28-4": {
+    "%NAME%": "switch-pkg-config",
+    "%VERSION%": "0.28-4",
+    "%URL%": "http://devkitpro.org/",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2-2.28.5-4": {
+    "%NAME%": "switch-sdl2",
+    "%VERSION%": "2.28.5-4",
+    "%URL%": "https://libsdl.org",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2_gfx-1.0.4-2": {
+    "%NAME%": "switch-sdl2_gfx",
+    "%VERSION%": "1.0.4-2",
+    "%URL%": "https://libsdl.org",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2_image-2.0.4-1": {
+    "%NAME%": "switch-sdl2_image",
+    "%VERSION%": "2.0.4-1",
+    "%URL%": "https://libsdl.org/projects/SDL_image/",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2_mixer-2.0.4-2": {
+    "%NAME%": "switch-sdl2_mixer",
+    "%VERSION%": "2.0.4-2",
+    "%URL%": "https://libsdl.org/projects/SDL_mixer/",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2_net-2.0.1-3": {
+    "%NAME%": "switch-sdl2_net",
+    "%VERSION%": "2.0.1-3",
+    "%URL%": "https://libsdl.org/projects/SDL_net/",
+    "%ARCH%": "any"
+  },
+  "switch-sdl2_ttf-2.22.0-2": {
+    "%NAME%": "switch-sdl2_ttf",
+    "%VERSION%": "2.22.0-2",
+    "%URL%": "https://libsdl.org/projects/SDL_ttf/",
+    "%ARCH%": "any"
+  },
+  "switch-smpeg2-2.0.0-1": {
+    "%NAME%": "switch-smpeg2",
+    "%VERSION%": "2.0.0-1",
+    "%URL%": "https://icculus.org/smpeg/",
+    "%ARCH%": "any"
+  },
+  "switch-tinyxml2-6.0.0-2": {
+    "%NAME%": "switch-tinyxml2",
+    "%VERSION%": "6.0.0-2",
+    "%URL%": "http://leethomason.github.io/tinyxml2/",
+    "%ARCH%": "any"
+  },
+  "switch-tools-1.13.1-1": {
+    "%NAME%": "switch-tools",
+    "%VERSION%": "1.13.1-1",
+    "%URL%": "https://github.com/switchbrew/switch-tools",
+    "%ARCH%": "x86_64"
+  },
+  "switch-wslay-1.1.0-1": {
+    "%NAME%": "switch-wslay",
+    "%VERSION%": "1.1.0-1",
+    "%URL%": "https://github.com/tatsuhiro-t/wslay",
+    "%ARCH%": "any"
+  },
+  "switch-xxhash-0.8.2-1": {
+    "%NAME%": "switch-xxhash",
+    "%VERSION%": "0.8.2-1",
+    "%URL%": "http://www.xxhash.com/",
+    "%ARCH%": "any"
+  },
+  "switch-zlib-1.3.1-1": {
+    "%NAME%": "switch-zlib",
+    "%VERSION%": "1.3.1-1",
+    "%URL%": "http://www.zlib.net",
+    "%ARCH%": "any"
+  },
+  "switch-zziplib-0.13.78-1": {
+    "%NAME%": "switch-zziplib",
+    "%VERSION%": "0.13.78-1",
+    "%URL%": "https://github.com/gdraheim/zziplib/",
+    "%ARCH%": "any"
+  },
+  "uam-1.1.0-1": {
+    "%NAME%": "uam",
+    "%VERSION%": "1.1.0-1",
+    "%URL%": "https://github.com/devkitPro/uam",
+    "%ARCH%": "x86_64"
+  }
+}

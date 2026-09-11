@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.nro -text
+*.elf -text
+*.dol -text
+*.zip -text
+*.gz -text
+*.patch whitespace=-blank-at-eol

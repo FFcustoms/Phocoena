@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/PalindromicBreadLoaf/nxvk.git",
+  "commit": "69ec283dbda64e65347a36274efb349122e85363",
+  "mesa_version": "26.1.4",
+  "rustup_version": "1.28.2",
+  "rustup_init_sha256": "20a06e644b0d9bd2fbdbfd52d42540bdde820ea7df86e92e533c073da0cdd43c",
+  "rust_toolchain": "nightly-2026-07-02",
+  "bindgen_cli_version": "0.72.1",
+  "cbindgen_version": "0.29.4",
+  "llvm_major": 19,
+  "python_packages": ["meson==1.12.0", "mako==1.4.1", "pyyaml==6.0.3", "MarkupSafe==3.0.3"],
+  "switch_toolchain": "../../toolchain.lock.json",
+  "status": "isolated driver experiment; not the Dolphin release"
+}

@@ -1,0 +1,150 @@
+{
+  "upstream": {
+    "url": "https://github.com/dolphin-emu/dolphin.git",
+    "commit": "4f8af23db516d8b6e9cd00e7b261a65b026514a8"
+  },
+  "submodules": [
+    {
+      "path": "Externals/zlib-ng/zlib-ng",
+      "url": "https://github.com/zlib-ng/zlib-ng.git",
+      "commit": "ce01b1e41da298334f8214389cc9369540a7560f"
+    },
+    {
+      "path": "Externals/libspng/libspng",
+      "url": "https://github.com/randy408/libspng.git",
+      "commit": "fb768002d4288590083a476af628e51c3f1d47cd"
+    },
+    {
+      "path": "Externals/VulkanMemoryAllocator",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git",
+      "commit": "3bab6924988e5f19bf36586a496156cf72f70d9f"
+    },
+    {
+      "path": "Externals/implot/implot",
+      "url": "https://github.com/epezent/implot.git",
+      "commit": "3da8bd34299965d3b0ab124df743fe3e076fa222"
+    },
+    {
+      "path": "Externals/gtest",
+      "url": "https://github.com/google/googletest.git",
+      "commit": "eb2d85edd0bff7a712b6aff147cd9f789f0d7d0b"
+    },
+    {
+      "path": "Externals/curl/curl",
+      "url": "https://github.com/curl/curl.git",
+      "commit": "cfbfb65047e85e6b08af65fe9cdbcf68e9ad496a"
+    },
+    {
+      "path": "Externals/fmt/fmt",
+      "url": "https://github.com/fmtlib/fmt.git",
+      "commit": "e424e3f2e607da02742f73db84873b8084fc714c"
+    },
+    {
+      "path": "Externals/lz4/lz4",
+      "url": "https://github.com/lz4/lz4.git",
+      "commit": "5fc0630a0ed55e9755b0fe3990cd021ae1c3edc1"
+    },
+    {
+      "path": "Externals/xxhash/xxHash",
+      "url": "https://github.com/Cyan4973/xxHash.git",
+      "commit": "e626a72bc2321cd320e953a0ccf1584cad60f363"
+    },
+    {
+      "path": "Externals/enet/enet",
+      "url": "https://github.com/lsalzman/enet.git",
+      "commit": "2662c0de09e36f2a2030ccc2c528a3e4c9e8138a"
+    },
+    {
+      "path": "Externals/tinygltf/tinygltf",
+      "url": "https://github.com/syoyo/tinygltf.git",
+      "commit": "c5641f2c22d117da7971504591a8f6a41ece488b"
+    },
+    {
+      "path": "Externals/minizip-ng/minizip-ng",
+      "url": "https://github.com/zlib-ng/minizip-ng.git",
+      "commit": "55db144e03027b43263e5ebcb599bf0878ba58de"
+    },
+    {
+      "path": "Externals/Vulkan-Headers",
+      "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+      "commit": "39f924b810e561fd86b2558b6711ca68d4363f68"
+    },
+    {
+      "path": "Externals/watcher/watcher",
+      "url": "https://github.com/e-dant/watcher.git",
+      "commit": "b03bdcfc11549df595b77239cefe2643943a3e2f"
+    },
+    {
+      "path": "Externals/SFML/SFML",
+      "url": "https://github.com/SFML/SFML.git",
+      "commit": "0fa201c969e48ecc253581c5841ce73f44d42f49"
+    },
+    {
+      "path": "Externals/zstd/zstd",
+      "url": "https://github.com/facebook/zstd.git",
+      "commit": "711e17da98510a3567bf47f85a08a76f64811474"
+    },
+    {
+      "path": "Externals/glslang/glslang",
+      "url": "https://github.com/KhronosGroup/glslang.git",
+      "commit": "a57276bf558f5cf94d3a9854ebdf5a2236849a5a"
+    },
+    {
+      "path": "Externals/pugixml/pugixml",
+      "url": "https://github.com/zeux/pugixml.git",
+      "commit": "ee86beb30e4973f5feffe3ce63bfa4fbadf72f38"
+    },
+    {
+      "path": "Externals/cpp-optparse/cpp-optparse",
+      "url": "https://github.com/weisslj/cpp-optparse.git",
+      "commit": "2265d647232249a53a03b411099863ceca35f0d3"
+    },
+    {
+      "path": "Externals/bzip2/bzip2",
+      "url": "https://gitlab.com/bzip2/bzip2.git",
+      "commit": "6a8690fc8d26c815e798c588f796eabe9d684cf0"
+    },
+    {
+      "path": "Externals/imgui/imgui",
+      "url": "https://github.com/ocornut/imgui.git",
+      "commit": "45acd5e0e82f4c954432533ae9985ff0e1aad6d5"
+    }
+  ],
+  "patches": [
+    {
+      "path": "patches/0001-horizon-platform.patch",
+      "directory": ".",
+      "sha256": "9c1d116f3217941383c8e741e7bd13156ef2de46bd7437bc6613dd376c1897e1"
+    },
+    {
+      "path": "patches/0002-externals-sfml-sfml.patch",
+      "directory": "Externals/SFML/SFML",
+      "sha256": "44893fda559c7253d3f0f48e1c4bc3ce814392709bb4f10fdcbd4e403258537d"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://github.com/xerpi/dolphin-switch",
+      "commit": "2079cf564f251fadcb5bb305c7c2faa9e8b8789c"
+    },
+    {
+      "url": "https://github.com/NaGaa95/dolphin-nx",
+      "commit": "84535ced59025dcfb2edd479c1b314325a0c9ddc"
+    },
+    {
+      "url": "https://github.com/switchbrew/libnx",
+      "commit": "7644c9b26099aa2d2145bc72a21ee24190e92085",
+      "tag": "v4.12.0"
+    },
+    {
+      "url": "https://github.com/retronx-team/sys-clk",
+      "commit": "1fd95096eb08e21e390b50d8cc05223d0ebb6795",
+      "note": "temporary override IPC API reference; not bundled"
+    },
+    {
+      "url": "https://github.com/hanai3Bi/Switch-OC-Suite",
+      "commit": "822556e6e4e627e5b9a444a934a82cc7f4a48db2",
+      "note": "sysclkOC compatibility reference; not bundled"
+    }
+  ]
+}

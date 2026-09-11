@@ -1,0 +1,37 @@
+# Local toolchain / generated build output
+/.toolchain/
+/build/
+/dist/
+/logs/
+/references/
+
+# Runtime/user data
+/games/
+/cache/
+/saves/
+/diagnostics/
+
+# Python
+__pycache__/
+*.pyc
+
+# Game images
+*.rvz
+*.iso
+*.gcm
+*.gcz
+*.wbfs
+
+# Switch / compiled binaries
+*.nro
+*.nso
+*.elf
+
+# Keys
+prod.keys
+title.keys
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
