@@ -37,7 +37,7 @@ Example:
 C:\Users\YourName\Desktop\Phocoena
 ```
 
-After the public GitHub repository is available, you can clone it from Windows or download it there.
+You can clone the repository from GitHub or download it there.
 
 Inside Ubuntu, that same folder appears as:
 
@@ -224,6 +224,40 @@ The application should identify itself as:
 Phocoena
 ```
 
+## Step 10 - Create The Complete SD-Ready Tester ZIP
+
+The NRO by itself is not the normal finished package.
+
+Create the complete SD-ready tester package with:
+
+```bash
+python3 scripts/package-testers.py
+```
+
+The finished ZIP will be written under:
+
+```text
+dist/
+```
+
+For v0.1.27, the expected package is:
+
+```text
+dist/Phocoena-v0.1.27-tester.zip
+```
+
+This ZIP contains the Phocoena NRO along with the supporting files, configuration, directories, licenses, and other files expected by Phocoena.
+
+For normal installation and testing, use this complete ZIP instead of copying only the NRO.
+
+Extract the ZIP directly to the root of the Switch SD card.
+
+After extraction, Phocoena should be located at:
+
+```text
+SD:/switch/Phocoena/Phocoena.nro
+```
+
 #============================================================#
 # SECTION 3 - BUILD PHOCOENA AGAIN LATER
 # THIS IS THE NORMAL BUILD PROCESS
@@ -261,7 +295,7 @@ Run:
 python3 scripts/verify-tester-baseline.py
 ```
 
-## Step 5 - Build
+## Step 5 - Build Phocoena
 
 Run:
 
@@ -269,39 +303,47 @@ Run:
 bash experiments/nxvk/dolphin-build.sh
 ```
 
-That's the normal Phocoena build command.
+## Step 6 - Verify The Finished NRO
 
-## Step 6 - Find The Finished NRO
+Run:
 
-The new NRO will be here:
-
-```text
-build/nxvk/dolphin/Binaries/Phocoena.nro
+```bash
+python3 scripts/verify-nro.py build/nxvk/dolphin/Binaries/Phocoena.nro
 ```
 
-On Windows:
+## Step 7 - Create The Complete SD-Ready Tester ZIP
 
-```text
-C:\...\Phocoena\build\nxvk\dolphin\Binaries\Phocoena.nro
-```
-
-#============================================================#
-# OPTIONAL - CREATE THE INSTALLABLE TESTER ZIP
-#============================================================#
-
-If you want the same SD-ready ZIP used for tester releases, run:
+Run:
 
 ```bash
 python3 scripts/package-testers.py
 ```
 
-The finished package will be written under:
+## Step 8 - Find The Finished Package
+
+The complete tester package will be under:
 
 ```text
 dist/
 ```
 
-The tester ZIP is designed to be extracted directly to the root of a Switch SD card.
+For v0.1.27:
+
+```text
+dist/Phocoena-v0.1.27-tester.zip
+```
+
+This is the package normal users and testers should install.
+
+Extract it directly to the root of the Switch SD card.
+
+The standalone NRO is also available at:
+
+```text
+build/nxvk/dolphin/Binaries/Phocoena.nro
+```
+
+but the NRO alone is not the recommended installation package.
 
 #============================================================#
 # OPTIONAL - LOWER RAM USAGE
@@ -358,4 +400,4 @@ Check the Ubuntu version with:
 lsb_release -a
 ```
 
-Do not randomly replace or update the pinned NXVK, Dolphin or Switch toolchain components while troubleshooting.
+Do not randomly replace or update the pinned NXVK, Dolphin, or Switch toolchain components while troubleshooting.
