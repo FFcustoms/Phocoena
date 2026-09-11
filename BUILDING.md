@@ -346,6 +346,78 @@ build/nxvk/dolphin/Binaries/Phocoena.nro
 but the NRO alone is not the recommended installation package.
 
 #============================================================#
+# VERIFY OR CREATE A SHA-256 CHECKSUM
+#============================================================#
+
+## Verify An Official Tester Release
+
+Official Phocoena tester releases include both the tester ZIP and its SHA-256 checksum file.
+
+Download both files from:
+
+https://github.com/FFcustoms/Phocoena/releases
+
+For v0.1.27, the files are:
+
+- `Phocoena-v0.1.27-tester.zip`
+- `Phocoena-v0.1.27-tester.zip.sha256`
+
+Place both files in the same folder.
+
+### Verify From Windows PowerShell
+
+Open PowerShell in that folder and run:
+
+`$expected = (Get-Content ".\Phocoena-v0.1.27-tester.zip.sha256").Split()[0].Trim().ToLower()`
+
+`$actual = (Get-FileHash ".\Phocoena-v0.1.27-tester.zip" -Algorithm SHA256).Hash.ToLower()`
+
+Then run:
+
+`if ($expected -eq $actual) { "MATCH - ZIP verified successfully" } else { "MISMATCH - ZIP does not match the published checksum" }`
+
+A valid official download should report:
+
+`MATCH - ZIP verified successfully`
+
+### Verify From Ubuntu / WSL
+
+With both files in the same folder, run:
+
+`sha256sum -c Phocoena-v0.1.27-tester.zip.sha256`
+
+A valid official download should report:
+
+`Phocoena-v0.1.27-tester.zip: OK`
+
+## Create A SHA-256 Checksum For Your Own Build
+
+After creating your tester ZIP with:
+
+`python3 scripts/package-testers.py`
+
+create its SHA-256 checksum from the Phocoena repository root with:
+
+`sha256sum dist/Phocoena-v0.1.27-tester.zip > dist/Phocoena-v0.1.27-tester.zip.sha256`
+
+This creates:
+
+`dist/Phocoena-v0.1.27-tester.zip.sha256`
+
+To immediately verify your own ZIP and checksum:
+
+`cd dist`
+
+`sha256sum -c Phocoena-v0.1.27-tester.zip.sha256`
+
+A successful verification should report:
+
+`Phocoena-v0.1.27-tester.zip: OK`
+
+The checksum only proves that a ZIP matches the checksum file being compared against it.
+
+To verify an official Phocoena release, use the `.sha256` file downloaded from the same GitHub Release as the tester ZIP.
+#============================================================#
 # OPTIONAL - LOWER RAM USAGE
 #============================================================#
 
@@ -401,3 +473,4 @@ lsb_release -a
 ```
 
 Do not randomly replace or update the pinned NXVK, Dolphin, or Switch toolchain components while troubleshooting.
+
