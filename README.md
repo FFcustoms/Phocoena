@@ -8,16 +8,16 @@ It runs natively on Horizon OS and currently uses Dolphin's AArch64 core with a 
 
 ## Get Started
 
-**Want to run Phocoena?**
+**Want to run Phocoena?**  
 See [INSTALL.md](INSTALL.md).
 
-**Testing Phocoena?**
+**Testing Phocoena?**  
 See [SWITCH_TESTING.md](SWITCH_TESTING.md).
 
-**Want to build it yourself?**
+**Want to build it yourself?**  
 See [BUILDING.md](BUILDING.md).
 
-**Having a problem?**
+**Having a problem?**  
 See [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
 
 ## Current Release
@@ -26,9 +26,9 @@ Current development/test release:
 
 **Phocoena v0.1.27**
 
-Phocoena is still experimental. Compatibility and performance vary between games, and crashes or incomplete emulation should be expected.
+Phocoena is still experimental. Compatibility and performance vary between games, and crashes, graphical issues, audio issues, slowdown, or incomplete emulation should be expected.
 
-Current tester baseline:
+### Current Tester Baseline
 
 - AArch64 JIT
 - Dual Core
@@ -40,6 +40,8 @@ Current tester baseline:
 - GPU target: 768 MHz
 - Memory clock is never written by Phocoena
 
+These settings are the current development baseline and may change as performance work continues.
+
 ## Quick Install
 
 Download the latest tester ZIP from GitHub Releases and extract it to the root of the Switch SD card.
@@ -48,7 +50,7 @@ Phocoena should end up at:
 
 `SD:/switch/Phocoena/Phocoena.nro`
 
-Full instructions are in [INSTALL.md](INSTALL.md).
+Full installation instructions are available in [INSTALL.md](INSTALL.md).
 
 ## Game Support
 
@@ -76,13 +78,27 @@ They are saved under:
 
 `SD:/switch/Phocoena/diagnostics/bundles/`
 
-The newest bundle is marked `UNSENT_`.
+The newest support bundle is marked:
 
-After another successful bundle is generated, older `UNSENT_` bundles are changed to `SENT_`.
+`UNSENT_`
 
-This makes it easier for testers to tell which report still needs to be returned.
+After another successful bundle is generated, older `UNSENT_` bundles are changed to:
 
-See [SWITCH_TESTING.md](SWITCH_TESTING.md) for the full testing workflow.
+`SENT_`
+
+This makes it easier to identify which report still needs to be returned.
+
+For the full testing and reporting workflow, see:
+
+[SWITCH_TESTING.md](SWITCH_TESTING.md)
+
+Tester reports and support bundles can be sent on Discord to:
+
+**@fusionfrenzy__18635**
+
+Discord User ID:
+
+`1464808922396492072`
 
 ## Building From Source
 
@@ -92,16 +108,26 @@ The current build produces:
 
 `build/nxvk/dolphin/Binaries/Phocoena.nro`
 
-See [BUILDING.md](BUILDING.md) for setup and build instructions.
+See [BUILDING.md](BUILDING.md) for toolchain setup, dependencies, build instructions, packaging, and verification steps.
 
 ## Repository Layout
 
-- `upstream/dolphin/` - Dolphin source with the Phocoena Horizon port
-- `experiments/nxvk/` - NXVK/Vulkan integration and build scripts
-- `scripts/` - Build, verification and packaging tools
+- `upstream/dolphin/` - Dolphin source containing the Phocoena Horizon port
+- `experiments/nxvk/` - NXVK/Vulkan integration and build work
+- `scripts/` - Build, verification, packaging, and support tooling
 - `patches/` - Source and reproducibility patches
-- `tests/` - Host-side and regression tests
+- `tests/` - Host-side tests and regression checks
 - `docs/` - Attribution and project documentation
+
+## Development
+
+Phocoena is heavily AI-assisted.
+
+AI tools are used throughout implementation, debugging, reverse-engineering support, experimentation, and iteration.
+
+Published tester builds are tested on real Nintendo Switch hardware before release. The repository, build instructions, source code, regression tests, and diagnostic tooling are public so the project can be inspected, reproduced, and independently tested.
+
+AI-generated output is not treated as automatically correct. Changes are tested against observed behavior, hardware results, performance data, and regression checks before being kept in published builds.
 
 ## Source and Licensing
 
@@ -115,7 +141,7 @@ NXVK is currently pinned to:
 
 `69ec283dbda64e65347a36274efb349122e85363`
 
-Phocoena retains the applicable Dolphin, NXVK, Mesa and third-party licensing requirements.
+Phocoena retains the applicable Dolphin, NXVK, Mesa, and third-party licensing requirements.
 
 See:
 
@@ -123,13 +149,15 @@ See:
 - `upstream/dolphin/LICENSES/`
 - the license notices distributed with release packages
 
-Dolphin Emulator: https://dolphin-emu.org/
+Dolphin Emulator:  
+https://dolphin-emu.org/
 
-Dolphin source: https://github.com/dolphin-emu/dolphin
+Dolphin source:  
+https://github.com/dolphin-emu/dolphin
 
 ## Legal
 
-Phocoena does not include Nintendo game images, encryption keys, firmware, NAND data or copyrighted game assets.
+Phocoena does not include Nintendo game images, encryption keys, firmware, NAND data, or copyrighted game assets.
 
 Users are responsible for supplying their own legally obtained game dumps and complying with applicable laws.
 
@@ -137,4 +165,14 @@ Users are responsible for supplying their own legally obtained game dumps and co
 
 Phocoena is experimental software under active development.
 
-Testing, compatibility reports and generated Phocoena support bundles are welcome.
+The project currently prioritizes:
+
+- GameCube compatibility
+- Performance on Nintendo Switch hardware
+- Vulkan/NXVK stability
+- Correctness and regression testing
+- Better diagnostic reporting
+- Reproducible builds
+- Wider real-hardware testing
+
+Testing, compatibility reports, bug reports, and generated Phocoena support bundles are welcome.
