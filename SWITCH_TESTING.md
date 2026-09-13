@@ -52,11 +52,12 @@ nothing new needs to be sent.
 
 Send your newest `UNSENT_` support bundle to me on Discord:
 
-**Discord: @fusionfrenzy**
+**Discord: @fusionfrenzy_18635**  
+**User ID: 1464808922396492072**
 
 Please include the game name and a short description of any problems or unusual behavior you noticed.
 
-If everything worked normally, please mention that too. Successful tests are useful information.
+If everything worked normally, please mention that too.
 
 ## If Something Crashes
 
