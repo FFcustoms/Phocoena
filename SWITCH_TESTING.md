@@ -13,7 +13,7 @@ For each game:
 1. Launch the game.
 2. Get into actual gameplay.
 3. Play for about 10 minutes when practical.
-4. Note crashes, graphics problems, audio problems, slowdown, stutter or anything unusual.
+4. Note crashes, graphics problems, audio problems, slowdown, stutter, or anything unusual.
 5. Return to Phocoena before launching the next game.
 
 ## When Finished
@@ -48,17 +48,26 @@ If Phocoena reports:
 
 nothing new needs to be sent.
 
+## Sending Results
+
+Send your newest `UNSENT_` support bundle to me on Discord:
+
+**Discord: @fusionfrenzy**
+
+Please include the game name and a short description of any problems or unusual behavior you noticed.
+
+If everything worked normally, please mention that too. Successful tests are useful information.
+
 ## If Something Crashes
 
 Relaunch Phocoena if possible and generate a support bundle.
 
-Please include:
+Send the newest `UNSENT_` ZIP to **@fusionfrenzy** on Discord along with:
 
 - Game name
 - What happened
 - Roughly where it happened
 - Whether it happened more than once
-- The newest `UNSENT_` ZIP
 
 Do not delete the diagnostics folder after a crash.
 
